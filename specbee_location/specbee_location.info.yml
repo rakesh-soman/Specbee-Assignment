@@ -1,0 +1,6 @@
+name: Specbee Location
+type: module
+description: To get the location and current time
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

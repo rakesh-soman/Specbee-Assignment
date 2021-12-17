@@ -1,0 +1,14 @@
+specbee_location.settings_form:
+  path: '/admin/config/system/specbee-location'
+  defaults:
+    _title: 'Specbee Location settings'
+    _form: 'Drupal\specbee_location\Form\SettingsForm'
+  requirements:
+    _permission: 'administer specbee_location configuration'
+specbee_location.time_location:
+  path: '/specbee-location'
+  defaults:
+    _title: 'Specbee Location'
+    _controller: 'Drupal\specbee_location\Controller\LocationTimeController::getBlockPlugin'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+services:
+  specbee_location.time_loc:
+    class: Drupal\specbee_location\Services\LocationTimeServices
+    arguments: ['@config.factory']

@@ -1,0 +1,15 @@
+<table>
+    <body>
+        <tr>
+            <th>Country</th>
+            <th>City</th>
+            <th>time</th>
+        </tr>
+        <tr>
+            <td>{{content['location_time']['country']}}</td>
+            <td>{{content['location_time']['city']}}</td>
+            <td>{{content['location_time']['time']}}</td>
+        </tr>
+    </body>
+</table>
+{{ content |without('location_time')}}
